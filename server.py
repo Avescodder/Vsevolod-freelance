@@ -11,9 +11,9 @@ load_dotenv()
 
 connector = aiohttp.TCPConnector(ssl=False)
 
-ngrok_url = 'https://92e6-85-240-119-67.ngrok-free.app'
-elena_id = 103286876
-db_path="db_avito.sqlite3"
+ngrok_url = ''
+elena_id = 
+db_path=""
 
 async def register_avito_webhook(api_token):
     url = "https://api.avito.ru/messenger/v3/webhook"

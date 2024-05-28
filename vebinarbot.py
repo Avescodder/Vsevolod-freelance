@@ -23,11 +23,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
 config = {
-    "user": "Vebin",
-    "password": "vebinarbot",
-    "host": "localhost",
-    "database": "Vebinar",
-    "raise_on_warnings": True,
+    
 }
 try:
     connection = mysql.connector.connect(**config)
